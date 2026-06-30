@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Dr. Ravi Kumar — Dental Clinic"
+version = "1.0.0"
+id = "artifacts/dr-ravi-kumar"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21395
+
+[services.development]
+run = "pnpm --filter @workspace/dr-ravi-kumar run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/dr-ravi-kumar", "run", "build" ]
+publicDir = "artifacts/dr-ravi-kumar/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21395"
+BASE_PATH = "/"

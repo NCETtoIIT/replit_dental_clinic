@@ -1,0 +1,38 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "Tq0Mk0v6QUD9ActnkZvRI"
+uri = "file://artifacts/dr-ravi-kumar/public/images/hero-bg.png"
+type = "image"
+title = "Dental clinic hero interior"
+
+[[generated]]
+id = "OfthZ2LwftGgOv4Gq789N"
+uri = "file://artifacts/dr-ravi-kumar/public/images/dr-ravi.png"
+type = "image"
+title = "Indian male dentist portrait"
+
+[[generated]]
+id = "fCLkQlwpY1Gbd31SdqSZe"
+uri = "file://artifacts/dr-ravi-kumar/public/images/service-whitening.png"
+type = "image"
+title = "Teeth whitening procedure"
+
+[[generated]]
+id = "A1jag7zEU6EAqdOj2N2-E"
+uri = "file://artifacts/dr-ravi-kumar/public/images/service-implant.png"
+type = "image"
+title = "Dental implant model"
+
+[[generated]]
+id = "8dT_BR1mHRKyf_ols5svD"
+uri = "file://artifacts/dr-ravi-kumar/public/images/service-braces.png"
+type = "image"
+title = "Dental braces smile"
+
+[[generated]]
+id = "_E8O0e-EveL76MR8GEO3N"
+uri = "file://artifacts/dr-ravi-kumar/public/images/clinic-exterior.png"
+type = "image"
+title = "Modern clinic exterior"
