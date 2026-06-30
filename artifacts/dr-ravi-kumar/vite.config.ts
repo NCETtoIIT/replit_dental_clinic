@@ -27,6 +27,9 @@ if (!basePath) {
 }
 
 export default defineConfig({
+  nitro: {
+    preset: "vercel",
+  },
   base: basePath,
   plugins: [
     react(),
